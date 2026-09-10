@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Career AI - JobSphere</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <div class="logo">JobSphere</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="companies.html">Companies</a></li>
+            <li><a href="skill-test.html">Skill Test</a></li>
+            <li><a href="career-ai.html" class="active">Career AI</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+
+        <div class="nav-buttons">
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="register.html" class="register-btn">Register</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Career AI Header -->
+    <section class="career-ai-header">
+
+        <div class="ai-badge">
+            ✨ AI Career Assistant
+        </div>
+
+        <h1>
+            Build Your Career with
+            <span>Career AI</span>
+        </h1>
+
+        <p>
+            Get personalized career guidance, discover suitable jobs,
+            identify skill gaps and create your career roadmap.
+        </p>
+
+    </section>
+
+
+    <!-- AI Assistant -->
+    <section class="career-ai-section">
+
+        <div class="ai-container">
+
+            <div class="ai-intro">
+
+                <div class="ai-avatar">
+                    AI
+                </div>
+
+                <div>
+                    <h2>How can I help your career?</h2>
+
+                    <p>
+                        Tell me about your skills, interests or career goals.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- AI Suggestions -->
+
+            <div class="ai-suggestions">
+
+                <button onclick="aiSuggestion('Find jobs for my skills')">
+                    💼 Find Suitable Jobs
+                </button>
+
+                <button onclick="aiSuggestion('What skills should I learn?')">
+                    📚 Skill Recommendations
+                </button>
+
+                <button onclick="aiSuggestion('Create my career roadmap')">
+                    🗺️ Career Roadmap
+                </button>
+
+                <button onclick="aiSuggestion('Improve my resume')">
+                    📄 Improve My Resume
+                </button>
+
+            </div>
+
+
+            <!-- Chat Area -->
+
+            <div class="ai-chat" id="aiChat">
+
+                <div class="ai-message">
+                    <div class="message-avatar">AI</div>
+
+                    <div class="message-content">
+                        <strong>Career AI</strong>
+
+                        <p>
+                            Hello! 👋 I'm your JobSphere Career Assistant.
+                            Tell me what career you're interested in,
+                            and I'll help you plan your next step.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Input -->
+
+            <div class="ai-input-area">
+
+                <input
+                    type="text"
+                    id="aiInput"
+                    placeholder="Ask Career AI about your career..."
+                >
+
+                <button onclick="sendAIMessage()">
+                    Send
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- AI Features -->
+
+    <section class="ai-features">
+
+        <div class="ai-feature">
+
+            <div class="feature-icon">
+                🎯
+            </div>
+
+            <h3>Career Recommendations</h3>
+
+            <p>
+                Get career suggestions based on your interests
+                and skills.
+            </p>
+
+        </div>
+
+
+        <div class="ai-feature">
+
+            <div class="feature-icon">
+                📊
+            </div>
+
+            <h3>Skill Gap Analysis</h3>
+
+            <p>
+                Find the skills you need to improve for your
+                target career.
+            </p>
+
+        </div>
+
+
+        <div class="ai-feature">
+
+            <div class="feature-icon">
+                🚀
+            </div>
+
+            <h3>Career Roadmap</h3>
+
+            <p>
+                Create a personalized step-by-step career
+                development plan.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <div class="footer-logo">
+            JobSphere
+        </div>
+
+        <p>
+            AI-Enhanced Job & Career Portal
+        </p>
+
+        <p>
+            © 2026 JobSphere. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>

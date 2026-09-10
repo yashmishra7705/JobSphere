@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs - JobSphere</title>
+    <!-- TEST -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">JobSphere</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="jobs.html" class="active">Jobs</a></li>
+            <li><a href="companies.html">Companies</a></li>
+            <li><a href="skill-test.html">Skill Test</a></li>
+            <li><a href="career-ai.html">Career AI</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+
+        <div class="nav-buttons">
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="register.html" class="register-btn">Register</a>
+        </div>
+    </nav>
+
+
+    <!-- Jobs Header -->
+    <section class="jobs-header">
+        <div>
+            <h1>Find Your <span>Dream Job</span></h1>
+            <p>Explore thousands of opportunities and build your future with JobSphere.</p>
+        </div>
+    </section>
+
+
+    <!-- Search Jobs -->
+    <section class="job-search">
+        <input type="text" id="jobSearch" placeholder="Job title, skills or keywords">
+
+        <select id="jobLocation">
+            <option value="">All Locations</option>
+            <option value="Prayagraj">Prayagraj</option>
+            <option value="Lucknow">Lucknow</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Bangalore">Bangalore</option>
+        </select>
+
+        <select id="jobType">
+            <option value="">All Job Types</option>
+            <option value="Full Time">Full Time</option>
+            <option value="Part Time">Part Time</option>
+            <option value="Internship">Internship</option>
+            <option value="Remote">Remote</option>
+        </select>
+
+        <button id="searchJobsBtn">Search Jobs</button>
+    </section>
+
+
+    <!-- Jobs Section -->
+     <!-- Jobs Section -->
+<section class="jobs-section">
+
+    <div class="jobs-title">
+        <h2>Latest Job Opportunities</h2>
+        <p>Find the right opportunity for your skills.</p>
+    </div>
+
+    <div class="job-grid" id="jobGrid">
+
+        <!-- Job 1 -->
+        <div class="job-card">
+            <div class="company-logo">G</div>
+            <div class="job-info">
+                <h3>Software Developer</h3>
+                <p class="company-name">Google</p>
+                <p>📍 Bangalore &nbsp; | &nbsp; 💼 Full Time</p>
+                <div class="job-tags">
+                    <span>Java</span>
+                    <span>Python</span>
+                    <span>SQL</span>
+                </div>
+            </div>
+            <div class="job-action">
+                <p>₹8 - 14 LPA</p>
+                <button onclick="window.location.href='apply.html?job=Software%20Developer&company=Google'">
+    Apply Now
+</button>
+            </div>
+        </div>
+
+
+        <!-- Job 2 -->
+        <div class="job-card">
+            <div class="company-logo">M</div>
+            <div class="job-info">
+                <h3>Frontend Developer</h3>
+                <p class="company-name">Microsoft</p>
+                <p>📍 Hyderabad &nbsp; | &nbsp; 💼 Full Time</p>
+                <div class="job-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div class="job-action">
+                <p>₹7 - 12 LPA</p>
+                <button>Apply Now</button>
+            </div>
+        </div>
+
+
+        <!-- Job 3 -->
+        <div class="job-card">
+            <div class="company-logo">A</div>
+            <div class="job-info">
+                <h3>Data Analyst</h3>
+                <p class="company-name">Amazon</p>
+                <p>📍 Delhi &nbsp; | &nbsp; 💼 Full Time</p>
+                <div class="job-tags">
+                    <span>Python</span>
+                    <span>Excel</span>
+                    <span>SQL</span>
+                </div>
+            </div>
+            <div class="job-action">
+                <p>₹6 - 10 LPA</p>
+                <button>Apply Now</button>
+            </div>
+        </div>
+
+
+        <!-- Job 4 -->
+        <div class="job-card">
+            <div class="company-logo">T</div>
+            <div class="job-info">
+                <h3>Software Engineer Intern</h3>
+                <p class="company-name">TCS</p>
+                <p>📍 Prayagraj &nbsp; | &nbsp; 💼 Internship</p>
+                <div class="job-tags">
+                    <span>C++</span>
+                    <span>Java</span>
+                    <span>DSA</span>
+                </div>
+            </div>
+            <div class="job-action">
+                <p>₹20K - 30K/month</p>
+                <button>Apply Now</button>
+            </div>
+        </div>
+
+
+        <!-- Job 5 -->
+        <div class="job-card">
+            <div class="company-logo">I</div>
+            <div class="job-info">
+                <h3>Backend Developer</h3>
+                <p class="company-name">Infosys</p>
+                <p>📍 Pune &nbsp; | &nbsp; 💼 Full Time</p>
+                <div class="job-tags">
+                    <span>Python</span>
+                    <span>Flask</span>
+                    <span>MySQL</span>
+                </div>
+            </div>
+            <div class="job-action">
+                <p>₹6 - 11 LPA</p>
+                <button>Apply Now</button>
+            </div>
+        </div>
+
+
+        <!-- Job 6 -->
+        <div class="job-card">
+            <div class="company-logo">D</div>
+            <div class="job-info">
+                <h3>Business Analyst</h3>
+                <p class="company-name">Deloitte</p>
+                <p>📍 Bangalore &nbsp; | &nbsp; 💼 Full Time</p>
+                <div class="job-tags">
+                    <span>Excel</span>
+                    <span>SQL</span>
+                    <span>Analytics</span>
+                </div>
+            </div>
+            <div class="job-action">
+                <p>₹7 - 13 LPA</p>
+                <button>Apply Now</button>
+            </div>
+        </div>
+
+
+        <!-- Job 7 -->
+        <div class="job-card">
+            <div class="company-logo">A</div>
+            <div class="job-info">
+                <h3>Cloud Engineer</h3>
+                <p class="company-name">Accenture</p>
+                <p>📍 Mumbai &nbsp; | &nbsp; 💼 Full Time</p>
+                <div class="job-tags">
+                    <span>AWS</span>
+                    <span>Linux</span>
+                    <span>Python</span>
+                </div>
+            </div>
+            <div class="job-action">
+                <p>₹8 - 15 LPA</p>
+                <button>Apply Now</button>
+            </div>
+        </div>
+
+
+        <!-- Job 8 -->
+        <div class="job-card">
+            <div class="company-logo">W</div>
+            <div class="job-info">
+                <h3>Web Developer</h3>
+                <p class="company-name">Wipro</p>
+                <p>📍 Hyderabad &nbsp; | &nbsp; 💼 Full Time</p>
+                <div class="job-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div class="job-action">
+                <p>₹5 - 9 LPA</p>
+                <button>Apply Now</button>
+            </div>
+        </div>
+
+
+        <!-- Job 9 -->
+        <div class="job-card">
+            <div class="company-logo">C</div>
+            <div class="job-info">
+                <h3>Data Scientist</h3>
+                <p class="company-name">Cognizant</p>
+                <p>📍 Chennai &nbsp; | &nbsp; 💼 Full Time</p>
+                <div class="job-tags">
+                    <span>Python</span>
+                    <span>Machine Learning</span>
+                    <span>SQL</span>
+                </div>
+            </div>
+            <div class="job-action">
+                <p>₹9 - 16 LPA</p>
+                <button>Apply Now</button>
+            </div>
+        </div>
+
+
+        <!-- Job 10 -->
+        <div class="job-card">
+            <div class="company-logo">H</div>
+            <div class="job-info">
+                <h3>UI/UX Designer</h3>
+                <p class="company-name">HCLTech</p>
+                <p>📍 Noida &nbsp; | &nbsp; 💼 Full Time</p>
+                <div class="job-tags">
+                    <span>Figma</span>
+                    <span>UI Design</span>
+                    <span>UX</span>
+                </div>
+            </div>
+            <div class="job-action">
+                <p>₹5 - 10 LPA</p>
+                <button>Apply Now</button>
+            </div>
+        </div>
+
+
+        <!-- Job 11 -->
+        <div class="job-card">
+            <div class="company-logo">C</div>
+            <div class="job-info">
+                <h3>Cyber Security Analyst</h3>
+                <p class="company-name">Capgemini</p>
+                <p>📍 Delhi &nbsp; | &nbsp; 💼 Full Time</p>
+                <div class="job-tags">
+                    <span>Cyber Security</span>
+                    <span>Networking</span>
+                    <span>Linux</span>
+                </div>
+            </div>
+            <div class="job-action">
+                <p>₹6 - 12 LPA</p>
+                <button>Apply Now</button>
+            </div>
+        </div>
+
+
+        <!-- Job 12 -->
+        <div class="job-card">
+            <div class="company-logo">T</div>
+            <div class="job-info">
+                <h3>Java Developer</h3>
+                <p class="company-name">Tech Mahindra</p>
+                <p>📍 Lucknow &nbsp; | &nbsp; 💼 Full Time</p>
+                <div class="job-tags">
+                    <span>Java</span>
+                    <span>Spring Boot</span>
+                    <span>SQL</span>
+                </div>
+            </div>
+            <div class="job-action">
+                <p>₹6 - 12 LPA</p>
+                <button>Apply Now</button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+    <section class="jobs-section">
+
+        <div class="jobs-title">
+            <h2>Latest Job Opportunities</h2>
+            <p>Find the right opportunity for your skills.</p>
+        </div>
+
+        <div class="job-grid" id="jobGrid">
+
+            <!-- Job 1 -->
+            <div class="job-card">
+                <div class="company-logo">G</div>
+
+                <div class="job-info">
+                    <h3>Software Developer</h3>
+                    <p class="company-name">Google</p>
+                    <p>📍 Bangalore &nbsp; | &nbsp; 💼 Full Time</p>
+
+                    <div class="job-tags">
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+
+                <div class="job-action">
+                    <p>₹8 - 14 LPA</p>
+                    <button onclick="applyJob('Software Developer', 'Google')">Apply Now</button>
+                </div>
+            </div>
+
+
+            <!-- Job 2 -->
+            <div class="job-card">
+                <div class="company-logo">M</div>
+
+                <div class="job-info">
+                    <h3>Frontend Developer</h3>
+                    <p class="company-name">Microsoft</p>
+                    <p>📍 Hyderabad &nbsp; | &nbsp; 💼 Full Time</p>
+
+                    <div class="job-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="job-action">
+                    <p>₹7 - 12 LPA</p>
+                    <button>Apply Now</button>
+                </div>
+            </div>
+
+
+            <!-- Job 3 -->
+            <div class="job-card">
+                <div class="company-logo">A</div>
+
+                <div class="job-info">
+                    <h3>Data Analyst</h3>
+                    <p class="company-name">Amazon</p>
+                    <p>📍 Delhi &nbsp; | &nbsp; 💼 Full Time</p>
+
+                    <div class="job-tags">
+                        <span>Python</span>
+                        <span>Excel</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+
+                <div class="job-action">
+                    <p>₹6 - 10 LPA</p>
+                    <button>Apply Now</button>
+                </div>
+            </div>
+
+
+            <!-- Job 4 -->
+            <div class="job-card">
+                <div class="company-logo">T</div>
+
+                <div class="job-info">
+                    <h3>Software Engineer Intern</h3>
+                    <p class="company-name">TCS</p>
+                    <p>📍 Prayagraj &nbsp; | &nbsp; 💼 Internship</p>
+
+                    <div class="job-tags">
+                        <span>C++</span>
+                        <span>Java</span>
+                        <span>DSA</span>
+                    </div>
+                </div>
+
+                <div class="job-action">
+                    <p>₹20K - 30K/month</p>
+                    <button>Apply Now</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-logo">JobSphere</div>
+        <p>AI-Enhanced Job & Career Portal</p>
+        <p>© 2026 JobSphere. All Rights Reserved.</p>
+    </footer>
+
+<script src="js/script.js?v=2"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+

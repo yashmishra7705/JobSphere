@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Apply for Job - JobSphere</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <div class="logo">JobSphere</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="companies.html">Companies</a></li>
+            <li><a href="skill-test.html">Skill Test</a></li>
+            <li><a href="career-ai.html">Career AI</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+
+        <div class="nav-buttons">
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="register.html" class="register-btn">Register</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Application Section -->
+    <section class="apply-section">
+
+        <div class="apply-card">
+
+            <div class="apply-header">
+                <h1>Apply for <span>Job</span></h1>
+
+<p id="selectedJob">
+    Complete the form below to submit your job application.
+</p>
+            </div>
+
+
+            <form id="applicationForm">
+
+                <!-- Full Name -->
+                <div class="form-group">
+                    <label for="applicantName">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="applicantName"
+                        placeholder="Enter your full name"
+                        required
+                    >
+                </div>
+
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="applicantEmail">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="applicantEmail"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+
+                <!-- Phone -->
+                <div class="form-group">
+                    <label for="applicantPhone">
+                        Phone Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="applicantPhone"
+                        placeholder="Enter your phone number"
+                        required
+                    >
+                </div>
+
+
+                <!-- Resume -->
+                <div class="form-group">
+
+                    <label for="applicantResume">
+                        Upload Resume
+                    </label>
+
+                    <input
+                        type="file"
+                        id="applicantResume"
+                        accept=".pdf,.doc,.docx"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Cover Letter -->
+                <div class="form-group">
+
+                    <label for="coverLetter">
+                        Cover Letter
+                    </label>
+
+                    <textarea
+                        id="coverLetter"
+                        rows="6"
+                        placeholder="Write a short cover letter..."
+                    ></textarea>
+
+                </div>
+
+
+                <!-- Submit -->
+                <button
+                    type="submit"
+                    class="application-submit"
+                >
+                    Submit Application
+                </button>
+
+            </form>
+
+        <div id="applicationSuccess" class="application-success">
+
+    <div class="success-icon">✓</div>
+
+    <h2>Application Submitted Successfully!</h2>
+
+    <p id="successMessage"></p>
+
+    <a href="jobs.html" class="back-jobs-btn">
+        Browse More Jobs
+    </a>
+
+</div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-logo">
+            JobSphere
+        </div>
+
+        <p>
+            AI-Enhanced Job & Career Portal
+        </p>
+
+        <p>
+            © 2026 JobSphere. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="js/script.js?v=2"></script>
+
+</body>
+
+</html>
+

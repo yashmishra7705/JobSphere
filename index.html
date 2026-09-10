@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JobSphere - Find Your Dream Job</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="nav">
+
+        <div class="logo">
+            Job<span>Sphere</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="jobs.html">Jobs</a>
+            <li><a href="companies.html">Companies</a></li>
+            <a href="skill-test.html">Skill Test</a>
+            <a href="career-ai.html">Career AI</a>
+            <a href="about.html">About Us</a>
+
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="register.html" class="register-btn">Register</a>
+        </div>
+
+    </nav>
+
+
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                Find Your Dream Job.<br>
+                Build Your <span>Future.</span>
+            </h1>
+
+            <p>
+                Discover the right opportunities, test your skills,
+                and build a successful career with JobSphere.
+            </p>
+
+
+            <!-- SEARCH BOX -->
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="homeJobTitle"
+                    placeholder="Job title, skills"
+                >
+
+                <select id="homeQualification">
+                    <option>Qualification</option>
+                    <option>12th Pass</option>
+                    <option>Diploma</option>
+                    <option>Graduate</option>
+                    <option>Post Graduate</option>
+                    <option>Doctral</option>
+                </select>
+
+                <select id="homeLocation">
+
+    <option value=" ">Select Location</option>
+    <option value="Prayagraj">Prayagraj</option>
+    <option value="Lucknow">Lucknow</option>
+    <option value="Delhi">Delhi</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Bangalore">Bangalore</option>
+                </select>
+
+                <button id="homeSearchBtn">Search</button>
+
+            </div>
+
+
+            <!-- HERO BUTTONS -->
+            <div class="hero-buttons">
+
+                <a href="skill-test.html" class="primary-btn">
+                    Take Skill Test
+                </a>
+
+                <label for="resumeUpload" class="secondary-btn">Upload Resume</label>
+<input type="file" id="resumeUpload" accept=".pdf,.doc,.docx" hidden>
+<p id="resumeName"></p>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= CAREER CARD ================= -->
+        <div class="hero-card">
+
+            <h3>Your Career Overview</h3>
+
+            <div class="stat">
+                <span>AI Job Match</span>
+                <strong>85%</strong>
+            </div>
+
+            <div class="stat">
+                <span>Skill Score</span>
+                <strong>76%</strong>
+            </div>
+
+            <div class="stat">
+                <span>Recommended Jobs</span>
+                <strong>12</strong>
+            </div>
+
+            <div class="stat">
+                <span>Profile Strength</span>
+                <strong>85%</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FEATURES ================= -->
+    <section class="features" id="jobs">
+
+        <h2>Everything You Need to Build Your Career</h2>
+
+        <p class="section-text">
+            JobSphere combines job discovery, skill assessment,
+            AI-powered recommendations and career tools in one platform.
+        </p>
+
+
+        <div class="feature-container">
+
+            <!-- CARD 1 -->
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🔎
+                </div>
+
+                <h3>Smart Job Matching</h3>
+
+                <p>
+                    Find jobs that match your skills,
+                    qualification and career interests.
+                </p>
+
+            </div>
+
+
+            <!-- CARD 2 -->
+            <div class="feature-card">
+
+                <div class="feature-icon">
+                    🧠
+                </div>
+
+                <h3>Skill Assessment</h3>
+
+                <p>
+                    Test your knowledge and understand
+                    your strengths with skill-based tests.
+                </p>
+
+            </div>
+
+
+            <!-- CARD 3 -->
+            <div class="feature-card" id="career-ai">
+
+                <div class="feature-icon">
+                    🤖
+                </div>
+
+                <h3>Career AI</h3>
+
+                <p>
+                    Get personalized career recommendations
+                    based on your skills and interests.
+                </p>
+
+            </div>
+
+
+            <!-- CARD 4 -->
+            <div class="feature-card" id="resume">
+
+                <div class="feature-icon">
+                    📄
+                </div>
+
+                <h3>Resume & Apply</h3>
+
+                <p>
+                    Build your profile, upload your resume
+                    and apply for suitable jobs easily.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HOW IT WORKS ================= -->
+    <section class="how" id="skill-test">
+
+        <h2>How JobSphere Works</h2>
+
+        <p class="section-text">
+            Start your career journey in four simple steps.
+        </p>
+
+
+        <div class="steps">
+
+            <div class="step">
+
+                <div class="step-number">1</div>
+
+                <h3>Create Profile</h3>
+
+                <p>
+                    Register and create your professional profile.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-number">2</div>
+
+                <h3>Discover Jobs</h3>
+
+                <p>
+                    Search and explore jobs matching your profile.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-number">3</div>
+
+                <h3>Test Your Skills</h3>
+
+                <p>
+                    Take skill tests and improve your career score.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-number">4</div>
+
+                <h3>Apply & Grow</h3>
+
+                <p>
+                    Apply for jobs and move towards your career goals.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer id="about">
+
+        <div class="footer-logo">
+            Job<span>Sphere</span>
+        </div>
+
+        <p>
+            AI-Enhanced Job & Career Portal
+        </p>
+
+        <p class="copyright">
+            © 2026 JobSphere. All Rights Reserved.
+        </p>
+
+    </footer>
+
+<script src="js/script.js?v=3"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

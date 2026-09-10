@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Skill Test - JobSphere</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+
+        <div class="logo">JobSphere</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="companies.html">Companies</a></li>
+            <li><a href="skill-test.html" class="active">Skill Test</a></li>
+            <li><a href="#">Career AI</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+
+        <div class="nav-buttons">
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="register.html" class="register-btn">Register</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Skill Test Header -->
+    <section class="skill-header">
+
+        <h1>Test Your <span>Skills</span></h1>
+
+        <p>
+            Evaluate your knowledge, improve your skills and
+            discover your career readiness with JobSphere.
+        </p>
+
+    </section>
+
+
+    <!-- Test Categories -->
+    <section class="skill-section">
+
+        <div class="skill-title">
+
+            <h2>Choose Your Skill Test</h2>
+
+            <p>
+                Select a category and start your assessment.
+            </p>
+
+        </div>
+
+
+        <div class="skill-grid">
+
+
+            <!-- Programming -->
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    &lt;/&gt;
+                </div>
+
+                <h3>Programming</h3>
+
+                <p>
+                    Test your knowledge of programming,
+                    logic and problem solving.
+                </p>
+
+                <div class="skill-details">
+                    <span>📝 10 Questions</span>
+                    <span>⏱️ 10 Minutes</span>
+                </div>
+
+                <button onclick="startTest('Programming')">
+                    Start Test
+                </button>
+
+            </div>
+
+
+            <!-- Web Development -->
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    🌐
+                </div>
+
+                <h3>Web Development</h3>
+
+                <p>
+                    Assess your HTML, CSS and JavaScript
+                    development skills.
+                </p>
+
+                <div class="skill-details">
+                    <span>📝 10 Questions</span>
+                    <span>⏱️ 10 Minutes</span>
+                </div>
+
+                <button onclick="startTest('Web Development')">
+                    Start Test
+                </button>
+
+            </div>
+
+
+            <!-- Data Science -->
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    📊
+                </div>
+
+                <h3>Data Science</h3>
+
+                <p>
+                    Check your understanding of data,
+                    statistics and analytics.
+                </p>
+
+                <div class="skill-details">
+                    <span>📝 10 Questions</span>
+                    <span>⏱️ 10 Minutes</span>
+                </div>
+
+                <button onclick="startTest('Data Science')">
+                    Start Test
+                </button>
+
+            </div>
+
+
+            <!-- Aptitude -->
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    🧠
+                </div>
+
+                <h3>Aptitude</h3>
+
+                <p>
+                    Improve your quantitative aptitude,
+                    reasoning and logical thinking.
+                </p>
+
+                <div class="skill-details">
+                    <span>📝 10 Questions</span>
+                    <span>⏱️ 10 Minutes</span>
+                </div>
+
+                <button onclick="startTest('Aptitude')">
+                    Start Test
+                </button>
+
+            </div>
+
+
+            <!-- Communication -->
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    💬
+                </div>
+
+                <h3>Communication</h3>
+
+                <p>
+                    Evaluate your English communication
+                    and professional language skills.
+                </p>
+
+                <div class="skill-details">
+                    <span>📝 10 Questions</span>
+                    <span>⏱️ 10 Minutes</span>
+                </div>
+
+                <button onclick="startTest('Communication')">
+                    Start Test
+                </button>
+
+            </div>
+
+
+            <!-- Database -->
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    🗄️
+                </div>
+
+                <h3>Database & SQL</h3>
+
+                <p>
+                    Test your SQL queries, database concepts
+                    and data management knowledge.
+                </p>
+
+                <div class="skill-details">
+                    <span>📝 10 Questions</span>
+                    <span>⏱️ 10 Minutes</span>
+                </div>
+
+                <button onclick="startTest('Database')">
+                    Start Test
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skill Score -->
+    <section class="skill-score">
+
+        <div class="score-content">
+
+            <h2>Track Your Skill Progress</h2>
+
+            <p>
+                Take multiple assessments and build your
+                JobSphere Skill Score.
+            </p>
+
+            <div class="score-box">
+
+                <strong>76</strong>
+
+                <span>/ 100</span>
+
+            </div>
+
+            <p class="score-label">
+                Current Skill Score
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-logo">
+            JobSphere
+        </div>
+
+        <p>
+            AI-Enhanced Job & Career Portal
+        </p>
+
+        <p>
+            © 2026 JobSphere. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>
